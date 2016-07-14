@@ -166,6 +166,9 @@ The service broker is deployed with a quota-enforcer process, which ensures that
 
 Configuring the Quota Enforcer frequency property controls how often the quota enforcer will poll to look for users that have met their quota.
 
+### <a id="replication-debug"></a>Replication Debug Logging ###
+
+When enabled, the database server logs additional events surrounding errors to help in identifying and correcting problems. NOTE, these logs are error output. If you have configured syslog, this option will possibly transmit unencrypted application data to your syslog server.
 
 ### <a id="proxy"></a>Proxy ###
 
